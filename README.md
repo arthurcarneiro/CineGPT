@@ -7,12 +7,15 @@ Para recriar o ambiente, execute no terminal o seguinte comando na pasta raíz d
 pip install -r requirements.txt
 ```
 
-Você deve no arquivo Cine GPT.ipynb logo abaixo da declaração das bibliotecas inserir o seu token do huggingface.
+Você deve no arquivo Cine GPT.ipynb logo abaixo da declaração das bibliotecas inserir o seu token do huggingface. Exatamente no trecho abaixo, substituindo 'seu-token' pelo que foi provido pelo huggingface
 
 ```
-SEU_TOKEN = 'seu-token'
+TOKEN_HUGGING_FACE = 'seu-token'
 ```
+Com isso feito você está pronto para inicializar o Cine GPT.
 
+
+## Seguem algumas informações:
 
 
 Pequeno assistente virtual (Cine GPT) para um indicador de filmes utilizando uma base como referência (RAG).
