@@ -1,4 +1,20 @@
 # Cine GPT
+
+## Como executar?
+
+Para recriar o ambiente, execute no terminal o seguinte comando na pasta raíz dessa aplicação:
+```
+pip install -r requirements.txt
+```
+
+Você deve no arquivo Cine GPT.ipynb logo abaixo da declaração das bibliotecas inserir o seu token do huggingface.
+
+```
+SEU_TOKEN = 'seu-token'
+```
+
+
+
 Pequeno assistente virtual (Cine GPT) para um indicador de filmes utilizando uma base como referência (RAG).
 
 Foi utilizada a base de filmes do IMDB top 1000, restrita a 50 filmes para economizar em tokens.
@@ -18,7 +34,3 @@ Bibliotecas utilizadas:
 - pandas
 - faiss-cpu
 
-Para recriar o ambiente, execute no terminal o seguinte comando na pasta raíz dessa aplicação:
-```
-pip install -r requirements.txt
-```
