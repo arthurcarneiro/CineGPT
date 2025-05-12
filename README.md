@@ -17,3 +17,8 @@ Bibliotecas utilizadas:
 - sentence-transformers
 - pandas
 - faiss-cpu
+
+Para recriar o ambiente, execute no terminal o seguinte comando na pasta raíz dessa aplicação:
+´´´
+pip install -r requirements.txt
+´´´
