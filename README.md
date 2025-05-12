@@ -13,7 +13,7 @@ Ao utilizar o assistente, pergunte continuamente e quando quiser encerrar digite
 
 Bibliotecas utilizadas:
 
-huggingface_hub
-sentence-transformers
-pandas
-faiss-cpu
+- huggingface_hub
+- sentence-transformers
+- pandas
+- faiss-cpu
